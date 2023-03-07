@@ -2432,12 +2432,24 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7120254236431515787, guid: 5f672dc733d91f346a513589960323c7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120254236431515787, guid: 5f672dc733d91f346a513589960323c7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120254236431515787, guid: 5f672dc733d91f346a513589960323c7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120254236431515787, guid: 5f672dc733d91f346a513589960323c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7120254236431515787, guid: 5f672dc733d91f346a513589960323c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 7120254236431515787, guid: 5f672dc733d91f346a513589960323c7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2474,6 +2486,14 @@ PrefabInstance:
     - target: {fileID: 7120254236431515792, guid: 5f672dc733d91f346a513589960323c7, type: 3}
       propertyPath: m_Name
       value: BouncyBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120254236431515797, guid: 5f672dc733d91f346a513589960323c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7120254236431515798, guid: 5f672dc733d91f346a513589960323c7, type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f672dc733d91f346a513589960323c7, type: 3}
