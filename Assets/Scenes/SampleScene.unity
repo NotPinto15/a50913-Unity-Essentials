@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.075597145, g: 0.067809105, b: 0.04503087, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -501,14 +501,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.18868066, y: -0.43135023, z: -0.43268916, w: 0.76884115}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: -4.77, y: -56.04, z: -56.201}
 --- !u!1 &730853072
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +545,7 @@ Transform:
   - {fileID: 1648921729}
   - {fileID: 818815135}
   m_Father: {fileID: 879662050}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &730853074
 BoxCollider:
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 846991236}
   - component: {fileID: 846991235}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -832,6 +832,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1714127628}
   - {fileID: 730853073}
   - {fileID: 1419886385}
   m_Father: {fileID: 0}
@@ -1244,7 +1245,7 @@ Transform:
   - {fileID: 571984374}
   - {fileID: 1158805295}
   m_Father: {fileID: 879662050}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1447366254
 GameObject:
@@ -1570,8 +1571,8 @@ Transform:
   - {fileID: 1816984376}
   - {fileID: 373618257}
   - {fileID: 846991234}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 879662050}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1816984375
 GameObject:
