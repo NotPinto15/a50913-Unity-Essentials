@@ -941,6 +941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b213aa9f0b0605f41b56d280a444bfea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMessage: 'Welcome to this Journey '
 --- !u!4 &922162472
 Transform:
   m_ObjectHideFlags: 0
